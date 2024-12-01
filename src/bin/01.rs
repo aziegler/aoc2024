@@ -1,8 +1,18 @@
-use std::collections::{HashMap, HashSet};
+mod day1;
+
+use std::collections::HashMap;
 
 use num::abs;
 
 advent_of_code::solution!(1);
+
+pub fn part1(input: &str) -> i32 {
+    part_one(input).unwrap()
+}
+
+pub fn part2(input: &str) -> i32 {
+    part_two(input).unwrap()
+}
 
 pub fn part_one(input: &str) -> Option<i32> {
     let (mut left_list, mut right_list) = parse_file(input);
