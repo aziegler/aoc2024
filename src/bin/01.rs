@@ -4,34 +4,31 @@ use num::abs;
 
 advent_of_code::solution!(1);
 
-pub fn part_one(input: &str) -> Option<u32> {
+pub fn part_one(input: &str) -> Option<i32> {
     let (mut left_list, mut right_list) = parse_file(input);
     left_list.sort();
     right_list.sort();
-    let mut result = 0;
-    for i in 0..left_list.len() {
-        result += abs(left_list[i] - right_list[i]);
-    }
-    Some(result as u32)
+    Some(
+        left_list
+            .iter()
+            .zip(right_list)
+            .fold(0, |acc, (left, right)| (acc + abs(left - right))),
+    )
 }
 
-pub fn part_two(input: &str) -> Option<u32> {
+pub fn part_two(input: &str) -> Option<i32> {
     let (left_list, right_list) = parse_file(input);
-    let mut values: HashMap<i32, i32> = HashMap::new();
-    let mut already_seen: HashSet<i32> = HashSet::new();
-    let mut result = 0;
-    for value in right_list.iter() {
-        *values.entry(*value).or_default() += 1;
-    }
-    for value in left_list.iter() {
-        if already_seen.contains(value) || !values.contains_key(value) {
-            continue;
-        }
-        result += *value * values.get(value).unwrap();
-        already_seen.insert(*value);
-    }
+    let right_list_count =
+        right_list
+            .iter()
+            .fold(HashMap::new(), |mut map: HashMap<i32, i32>, value| {
+                *map.entry(*value).or_default() += 1;
+                map
+            });
 
-    Some(result as u32)
+    Some(left_list.iter().fold(0, |acc, value| {
+        acc + *value * right_list_count.get(value).unwrap_or(&0)
+    }))
 }
 
 fn parse_file(input: &str) -> (Vec<i32>, Vec<i32>) {
@@ -61,7 +58,7 @@ mod tests {
     #[test]
     fn test_part_two() {
         let result = part_two(&advent_of_code::template::read_file("examples", DAY));
-        assert_eq!(result, Some(13));
+        assert_eq!(result, Some(31));
     }
 
     #[test]
