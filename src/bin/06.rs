@@ -1,51 +1,27 @@
 use std::{
     collections::HashSet,
-    env::current_dir,
     thread::{self, JoinHandle},
 };
 
 advent_of_code::solution!(6);
 
 pub fn part_one(input: &str) -> Option<usize> {
-    let mut game = parse(input);
-    loop {
-        let step = game.step_board();
-        match step {
-            StepResult::EXIT | StepResult::LOOP => {
-                let distinct_pos: HashSet<(usize, usize)> =
-                    game.visited_pos.iter().map(|c| c.0).collect();
-                return Some(distinct_pos.len());
-            }
-            StepResult::CONTINUE => {
-                continue;
-            }
-        }
-    }
+    let game = parse(input);
+    let (_, pos) = compute_game(game);
+    return Some(pos.len());
 }
 
 pub fn part_two(input: &str) -> Option<u32> {
     let game = parse(input);
-    let mut original_game = game.clone();
-    loop {
-        let step = original_game.step_board();
-        match step {
-            StepResult::CONTINUE => {
-                continue;
-            }
-            _ => {
-                break;
-            }
-        }
-    }
+    let original_game = game.clone();
+    let (_, pos) = compute_game(original_game);
 
-    let possible_obstacles: HashSet<(usize, usize)> =
-        original_game.visited_pos.iter().map(|c| c.0).collect();
     let mut thread_handles: Vec<JoinHandle<bool>> = Vec::new();
-    for pos in possible_obstacles {
+    for pos in pos {
         let mut new_game = game.clone();
         new_game.extra_obstacle = Some((pos.0 as i32, pos.1 as i32));
         thread_handles.push(thread::spawn(move || match compute_game(new_game) {
-            StepResult::LOOP => return true,
+            (StepResult::LOOP, _) => return true,
             _ => return false,
         }));
     }
@@ -58,7 +34,7 @@ pub fn part_two(input: &str) -> Option<u32> {
     Some(count)
 }
 
-fn compute_game(mut new_game: BoardState) -> StepResult {
+fn compute_game(mut new_game: BoardState) -> (StepResult, HashSet<(usize, usize)>) {
     loop {
         let step = new_game.step_board();
         match step {
@@ -66,7 +42,7 @@ fn compute_game(mut new_game: BoardState) -> StepResult {
                 continue;
             }
             _ => {
-                return step;
+                return (step, new_game.distinct_pos());
             }
         }
     }
@@ -89,6 +65,10 @@ enum StepResult {
 }
 
 impl BoardState {
+    fn distinct_pos(&mut self) -> HashSet<(usize, usize)> {
+        self.visited_pos.iter().map(|c| c.0).collect()
+    }
+
     fn step_board(&mut self) -> StepResult {
         if self
             .visited_pos
