@@ -3,6 +3,8 @@ use std::{
     thread::{self, JoinHandle},
 };
 
+use rayon::iter::{IntoParallelRefIterator, ParallelIterator};
+
 advent_of_code::solution!(6);
 
 pub fn part_one(input: &str) -> Option<usize> {
@@ -11,27 +13,25 @@ pub fn part_one(input: &str) -> Option<usize> {
     return Some(pos.len());
 }
 
-pub fn part_two(input: &str) -> Option<u32> {
+pub fn part_two(input: &str) -> Option<i32> {
     let game = parse(input);
     let original_game = game.clone();
     let (_, pos) = compute_game(original_game);
 
-    let mut thread_handles: Vec<JoinHandle<bool>> = Vec::new();
-    for pos in pos {
-        let mut new_game = game.clone();
-        new_game.extra_obstacle = Some((pos.0 as i32, pos.1 as i32));
-        thread_handles.push(thread::spawn(move || match compute_game(new_game) {
-            (StepResult::LOOP, _) => return true,
-            _ => return false,
-        }));
-    }
-    let mut count = 0;
-    for thread in thread_handles.into_iter() {
-        if thread.join().unwrap() {
-            count += 1;
-        }
-    }
+    let count = pos
+        .par_iter()
+        .map(|pos| test_obstacle(game.clone(), *pos))
+        .sum();
+
     Some(count)
+}
+
+fn test_obstacle(mut game: BoardState, obstacle_pos: (usize, usize)) -> i32 {
+    game.extra_obstacle = Some((obstacle_pos.0 as i32, obstacle_pos.1 as i32));
+    match compute_game(game) {
+        (StepResult::LOOP, _) => return 1,
+        _ => return 0,
+    }
 }
 
 fn compute_game(mut new_game: BoardState) -> (StepResult, HashSet<(usize, usize)>) {

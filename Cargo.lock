@@ -28,6 +28,7 @@ dependencies = [
  "nom",
  "num",
  "pico-args",
+ "rayon",
  "tinyjson",
 ]
 
