@@ -1,7 +1,4 @@
-use std::{
-    collections::HashSet,
-    thread::{self, JoinHandle},
-};
+use std::collections::HashSet;
 
 use rayon::iter::{IntoParallelRefIterator, ParallelIterator};
 
