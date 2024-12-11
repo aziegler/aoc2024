@@ -6,12 +6,11 @@ pub fn part_one(input: &str) -> Option<usize> {
     let map = parse(input);
     let size = (map.get(0).unwrap().len(), map.len());
     let mut sum = 0;
-    for x in (0..size.1) {
-        for y in (0..size.0) {
+    for x in 0..size.1 {
+        for y in 0..size.0 {
             let head = reachable_9(&map, &HashSet::new(), x, y, 0, size);
             if head.len() > 0 {
                 sum += head.len();
-                println!("Found {:?} for {},{}", head, x, y)
             }
         }
     }
@@ -22,8 +21,8 @@ pub fn part_two(input: &str) -> Option<u32> {
     let map = parse(input);
     let size = (map.get(0).unwrap().len(), map.len());
     let mut sum = 0;
-    for x in (0..size.1) {
-        for y in (0..size.0) {
+    for x in 0..size.1 {
+        for y in 0..size.0 {
             sum += valid_paths(&map, x, y, 0, size);
         }
     }
