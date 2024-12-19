@@ -1,0 +1,650 @@
+{
+    "78bfc520-2718-4f18-ac72-ff23facc1e4b": {
+        "learning_set_id": "78bfc520-2718-4f18-ac72-ff23facc1e4b",
+        "name": null,
+        "description": "",
+        "status": {},
+        "learning_set_context": {
+            "id": "78bfc520-2718-4f18-ac72-ff23facc1e4b",
+            "shell": "WIZARD",
+            "targetedDifficulties": { "$html": "" },
+            "visibility_status": "VISIBLE"
+        },
+        "learning_set_tags": {},
+        "learning_set_type": "module",
+        "learning_set_configs": [
+            {
+                "product": "athena/remediationseconde",
+                "env_edito": "main",
+                "learning_set_config": {
+                    "status": {},
+                    "description": "",
+                    "code": "M102",
+                    "visibility_status": "VISIBLE",
+                    "student_path": {
+                        "alt": "After the initial test, objectives 1 and 2 are open. An activity in Objective 2 unlocks Objectives 3 and 4. An activity in objective 4 unlocks objective 5. Finally, an activity in objective 5 unlocks objective 6.",
+                        "url": "/maps/map-module2-ma.svg"
+                    },
+                    "title": {
+                        "short": "Comprendre les notions de proportion et de fraction",
+                        "long": "Module 2"
+                    }
+                }
+            }
+        ],
+        "id": "78bfc520-2718-4f18-ac72-ff23facc1e4b",
+        "updated": "2024-12-10T11:20:55.715011+00:00",
+        "created": "2024-12-10T11:20:55.715011+00:00",
+        "env_edito": "main",
+        "learning_items": [],
+        "learning_object_type": "learning_set",
+        "learning_items_length": 0,
+        "mapping_nodes": [
+            "connaitre-nombres-pos-besoin",
+            "connaitre-nombres-pos-fragile",
+            "M101-TAImastered",
+            "M103O1-blocked",
+            "M103O2-blocked",
+            "M103O3-blocked"
+        ],
+        "learning_sets": [
+            "dd7a9691-75b3-41f5-a145-52142e6c431a",
+            "fb4422c8-55d1-4e64-9d13-16aea735dbd7",
+            "8675ce58-3dd1-4d21-baa8-3c962863cffd",
+            "efcce222-569f-4001-ba64-4b5fbd75a550",
+            "7b624c9e-a868-42d6-b974-8e1007f194d3",
+            "1c25309c-a43d-4f54-a8e9-11433cb08129",
+            "a7a2845e-a8dd-4d6c-994d-eb4bb566e982",
+            "cfd24010-1d22-41d0-b97d-084952f4b43e",
+            "1e302746-17a9-48f3-94c6-645035c71901",
+            "5811155a-6a69-4a47-b73d-b29256f86c26",
+            "cb837ca7-4b3f-441b-99d5-ca1a8bb3c61d"
+        ]
+    },
+    "dd7a9691-75b3-41f5-a145-52142e6c431a": {
+        "learning_set_id": "dd7a9691-75b3-41f5-a145-52142e6c431a",
+        "name": null,
+        "description": "\u00c9valuer des proportions simples (non symbolique)",
+        "status": {},
+        "learning_set_context": {
+            "id": "dd7a9691-75b3-41f5-a145-52142e6c431a",
+            "shell": "WIZARD",
+            "targetedDifficulties": {
+                "$html": "Renforcer la capacit\u00e9 intuitive des \u00e9l\u00e8ves \u00e0 \u00e9valuer des proportions simples repr\u00e9sent\u00e9es de mani\u00e8re non symbolique (avec des quantit\u00e9s continues et discr\u00e8tes), pour s\u2019en servir ult\u00e9rieurement comme rep\u00e8res dans l\u2019analyse des proportions. Percevoir si une proportion correspond \u00e0 la moiti\u00e9, au tiers, au quart, au cinqui\u00e8me, au sixi\u00e8me, au septi\u00e8me d\u2019un ensemble."
+            },
+            "visibility_status": "VISIBLE"
+        },
+        "learning_set_tags": {},
+        "learning_set_type": "objective",
+        "learning_set_configs": [
+            {
+                "product": "athena/remediationseconde",
+                "env_edito": "main",
+                "learning_set_config": {
+                    "status": {},
+                    "description": "\u00c9valuer des proportions simples (non symbolique)",
+                    "code": "M102O1",
+                    "visibility_status": "VISIBLE",
+                    "student_path": null,
+                    "title": {
+                        "short": "Percevoir si une proportion correspond \u00e0 la moiti\u00e9, au tiers, au quart, au cinqui\u00e8me, au sixi\u00e8me, au septi\u00e8me d\u2019un ensemble",
+                        "long": "Objectif 1"
+                    }
+                }
+            }
+        ],
+        "id": "dd7a9691-75b3-41f5-a145-52142e6c431a",
+        "updated": "2024-12-10T11:20:55.715011+00:00",
+        "created": "2024-12-10T11:20:55.715011+00:00",
+        "env_edito": "main",
+        "learning_items": [],
+        "learning_object_type": "learning_set",
+        "learning_items_length": 0,
+        "mapping_nodes": [
+            "nombres-rationnels-lgt",
+            "algebre-analyse-lp",
+            "connaitre-nombres-pos"
+        ],
+        "learning_sets": [
+            "841077f8-e4bb-4787-991c-653a49e0cf80",
+            "2d25eb5c-013c-4d92-9718-317e03757045",
+            "77e35e1d-12b1-4838-bd1a-dd674e61123a",
+            "ef71d3a8-9dd3-4d62-91bf-17659a3ab3c1",
+            "1fe0cb91-f3e0-4949-ab8a-7ae31f5c9ef6",
+            "d06c1b3b-b458-4a8f-a45a-2962370104d4"
+        ]
+    },
+    "fb4422c8-55d1-4e64-9d13-16aea735dbd7": {
+        "learning_set_id": "fb4422c8-55d1-4e64-9d13-16aea735dbd7",
+        "name": null,
+        "description": "Exprimer une proportion (non symbolique)",
+        "status": {},
+        "learning_set_context": {
+            "id": "fb4422c8-55d1-4e64-9d13-16aea735dbd7",
+            "shell": "WIZARD",
+            "targetedDifficulties": {
+                "$html": "Repr\u00e9senter et exprimer des proportions de mani\u00e8re non symbolique, puis traduire ces repr\u00e9sentations en symboles math\u00e9matiques."
+            },
+            "visibility_status": "VISIBLE"
+        },
+        "learning_set_tags": {},
+        "learning_set_type": "objective",
+        "learning_set_configs": [
+            {
+                "product": "athena/remediationseconde",
+                "env_edito": "main",
+                "learning_set_config": {
+                    "status": {},
+                    "description": "Exprimer une proportion (non symbolique)",
+                    "code": "M102O2",
+                    "visibility_status": "VISIBLE",
+                    "student_path": null,
+                    "title": {
+                        "short": "Exprimer une proportion correspondant \u00e0 une repr\u00e9sentation non symbolique",
+                        "long": "Objectif 2"
+                    }
+                }
+            }
+        ],
+        "id": "fb4422c8-55d1-4e64-9d13-16aea735dbd7",
+        "updated": "2024-12-10T11:20:55.715011+00:00",
+        "created": "2024-12-10T11:20:55.715011+00:00",
+        "env_edito": "main",
+        "learning_items": [],
+        "learning_object_type": "learning_set",
+        "learning_items_length": 0,
+        "mapping_nodes": [
+            "nombres-rationnels-lgt",
+            "algebre-analyse-lp",
+            "connaitre-nombres-pos"
+        ],
+        "learning_sets": [
+            "c500baed-3651-4fea-9718-44ff2578f2e2",
+            "d34b06bc-edc2-4d1e-971e-f2e74188289b",
+            "3d0e82f7-ac7c-4d4f-bded-5e4ac07d3038",
+            "eb8d30e7-a8ec-4925-8694-646e23675819",
+            "cf352f93-60ec-4e2a-aa0d-1b61b366e465",
+            "f1b14c97-d5c3-4272-8e29-968be36bb5a0",
+            "45ae2a08-e47a-4d37-b1d3-f1cae356b74a",
+            "0eada858-784e-465b-8fd0-18f36dc97dc8",
+            "eddec6e5-fa84-4d8f-8c55-5090d40549bf"
+        ]
+    },
+    "8675ce58-3dd1-4d21-baa8-3c962863cffd": {
+        "learning_set_id": "8675ce58-3dd1-4d21-baa8-3c962863cffd",
+        "name": null,
+        "description": "Exprimer une fraction (non symbolique)",
+        "status": {},
+        "learning_set_context": {
+            "id": "8675ce58-3dd1-4d21-baa8-3c962863cffd",
+            "shell": "WIZARD",
+            "targetedDifficulties": {
+                "$html": "Rep\u00e9rer diff\u00e9rentes repr\u00e9sentations non symboliques d\u2019une fraction."
+            },
+            "visibility_status": "VISIBLE"
+        },
+        "learning_set_tags": {},
+        "learning_set_type": "objective",
+        "learning_set_configs": [
+            {
+                "product": "athena/remediationseconde",
+                "env_edito": "main",
+                "learning_set_config": {
+                    "status": {},
+                    "description": "Exprimer une fraction (non symbolique)",
+                    "code": "M102O3",
+                    "visibility_status": "VISIBLE",
+                    "student_path": null,
+                    "title": {
+                        "short": "Exprimer une fraction correspondant \u00e0 une repr\u00e9sentation non symbolique",
+                        "long": "Objectif 3"
+                    }
+                }
+            }
+        ],
+        "id": "8675ce58-3dd1-4d21-baa8-3c962863cffd",
+        "updated": "2024-12-10T11:20:55.715011+00:00",
+        "created": "2024-12-10T11:20:55.715011+00:00",
+        "env_edito": "main",
+        "learning_items": [],
+        "learning_object_type": "learning_set",
+        "learning_items_length": 0,
+        "mapping_nodes": [
+            "nombres-rationnels-lgt",
+            "algebre-analyse-lp",
+            "connaitre-nombres-pos"
+        ],
+        "learning_sets": [
+            "6affb464-c6e6-46db-86c7-a96331560c6c",
+            "18dae28f-df6b-4203-818c-fcb0a7c727b2",
+            "742361ab-1d64-43a3-a795-decab0fc406b",
+            "874cd80f-26c5-402d-ab54-98cc955fdf68",
+            "753a50be-0a56-48ce-9fe2-9c452e444a0a",
+            "0935195f-33f5-4df2-a3e2-da003cb5c61c"
+        ]
+    },
+    "efcce222-569f-4001-ba64-4b5fbd75a550": {
+        "learning_set_id": "efcce222-569f-4001-ba64-4b5fbd75a550",
+        "name": null,
+        "description": "Simplifier une fraction",
+        "status": {},
+        "learning_set_context": {
+            "id": "efcce222-569f-4001-ba64-4b5fbd75a550",
+            "shell": "WIZARD",
+            "targetedDifficulties": {
+                "$html": "Apprendre \u00e0 simplifier une fraction."
+            },
+            "visibility_status": "VISIBLE"
+        },
+        "learning_set_tags": {},
+        "learning_set_type": "objective",
+        "learning_set_configs": [
+            {
+                "product": "athena/remediationseconde",
+                "env_edito": "main",
+                "learning_set_config": {
+                    "status": {},
+                    "description": "Simplifier une fraction",
+                    "code": "M102O4",
+                    "visibility_status": "VISIBLE",
+                    "student_path": null,
+                    "title": {
+                        "short": "Simplifier une fraction",
+                        "long": "Objectif 4"
+                    }
+                }
+            }
+        ],
+        "id": "efcce222-569f-4001-ba64-4b5fbd75a550",
+        "updated": "2024-12-10T11:20:55.715011+00:00",
+        "created": "2024-12-10T11:20:55.715011+00:00",
+        "env_edito": "main",
+        "learning_items": [],
+        "learning_object_type": "learning_set",
+        "learning_items_length": 0,
+        "mapping_nodes": [
+            "nombres-rationnels-lgt",
+            "algebre-analyse-lp",
+            "connaitre-nombres-pos"
+        ],
+        "learning_sets": [
+            "bc6e0ec7-a60f-4f3a-b980-b814693d3d06",
+            "ba5dbd27-4091-4f01-b718-c070e5ffefee",
+            "fcc7a434-c8c9-43ab-b797-ac9fd3b9f4af",
+            "5aa27345-74cc-4fc1-862f-d1f4985c295b"
+        ]
+    },
+    "7b624c9e-a868-42d6-b974-8e1007f194d3": {
+        "learning_set_id": "7b624c9e-a868-42d6-b974-8e1007f194d3",
+        "name": null,
+        "description": "Comparer des fractions comprises entre 0 et 1",
+        "status": {},
+        "learning_set_context": {
+            "id": "7b624c9e-a868-42d6-b974-8e1007f194d3",
+            "shell": "WIZARD",
+            "targetedDifficulties": {
+                "$html": "Comparer deux proportions \u00e0 partir de repr\u00e9sentations non symboliques pour parvenir progressivement \u00e0 comparer des fractions."
+            },
+            "visibility_status": "VISIBLE"
+        },
+        "learning_set_tags": {},
+        "learning_set_type": "objective",
+        "learning_set_configs": [
+            {
+                "product": "athena/remediationseconde",
+                "env_edito": "main",
+                "learning_set_config": {
+                    "status": {},
+                    "description": "Comparer des fractions comprises entre 0 et 1",
+                    "code": "M102O5",
+                    "visibility_status": "VISIBLE",
+                    "student_path": null,
+                    "title": {
+                        "short": "Comparer des fractions comprises entre 0 et 1",
+                        "long": "Objectif 5"
+                    }
+                }
+            }
+        ],
+        "id": "7b624c9e-a868-42d6-b974-8e1007f194d3",
+        "updated": "2024-12-10T11:20:55.715011+00:00",
+        "created": "2024-12-10T11:20:55.715011+00:00",
+        "env_edito": "main",
+        "learning_items": [],
+        "learning_object_type": "learning_set",
+        "learning_items_length": 0,
+        "mapping_nodes": [
+            "nombres-rationnels-lgt",
+            "algebre-analyse-lp",
+            "connaitre-nombres-pos"
+        ],
+        "learning_sets": [
+            "607d5973-68c1-420f-904f-fbb03b94f215",
+            "065c029c-a685-4547-8234-d8d21b614479",
+            "0056ac07-447f-4638-947b-aba28afc898b",
+            "6445a2c7-ba97-4567-9ceb-91470e7a9152",
+            "c560c59b-0dcb-405f-9a5f-4b035a5dae32",
+            "542c6b37-dac7-43d6-9a11-50fb1fb8ac87",
+            "70e589f7-e786-4033-a322-a5748e4ea755",
+            "40ce3972-4914-4dcf-a860-a528c76e0052",
+            "f9fc180d-f869-494b-abbb-b3254eaeb887",
+            "ae09e68d-e4c2-4ac0-ac14-1b99183c6e16",
+            "07cd5a15-973b-4e47-99c2-2dc2f25f9d4e",
+            "4de7d77e-e137-4500-af5e-c19ca4609028",
+            "270e13b8-e1c3-46cf-920d-92149a6816d5"
+        ]
+    },
+    "1c25309c-a43d-4f54-a8e9-11433cb08129": {
+        "learning_set_id": "1c25309c-a43d-4f54-a8e9-11433cb08129",
+        "name": null,
+        "description": "Identifier diff\u00e9rentes repr\u00e9sentations symboliques des proportions",
+        "status": {},
+        "learning_set_context": {
+            "id": "1c25309c-a43d-4f54-a8e9-11433cb08129",
+            "shell": "WIZARD",
+            "targetedDifficulties": {
+                "$html": "Faire le lien entre diff\u00e9rentes repr\u00e9sentations symboliques des proportions (nombres d\u00e9cimaux, fractions et pourcentages), pour renforcer la compr\u00e9hension mutuelle de chacune de ces repr\u00e9sentations et du concept de proportion."
+            },
+            "visibility_status": "VISIBLE"
+        },
+        "learning_set_tags": {},
+        "learning_set_type": "objective",
+        "learning_set_configs": [
+            {
+                "product": "athena/remediationseconde",
+                "env_edito": "main",
+                "learning_set_config": {
+                    "status": {},
+                    "description": "Identifier diff\u00e9rentes repr\u00e9sentations symboliques des proportions",
+                    "code": "M102O6",
+                    "visibility_status": "VISIBLE",
+                    "student_path": null,
+                    "title": {
+                        "short": "Identifier diff\u00e9rentes repr\u00e9sentations symboliques des proportions (nombres d\u00e9cimaux, fractions et pourcentage)",
+                        "long": "Objectif 6"
+                    }
+                }
+            }
+        ],
+        "id": "1c25309c-a43d-4f54-a8e9-11433cb08129",
+        "updated": "2024-12-10T11:20:55.715011+00:00",
+        "created": "2024-12-10T11:20:55.715011+00:00",
+        "env_edito": "main",
+        "learning_items": [],
+        "learning_object_type": "learning_set",
+        "learning_items_length": 0,
+        "mapping_nodes": [
+            "nombres-rationnels-lgt",
+            "algebre-analyse-lp",
+            "connaitre-nombres-pos"
+        ],
+        "learning_sets": [
+            "5e6142dd-55c6-49bd-9e3f-dfd3ad06f418",
+            "16f6a252-f80d-4df4-958f-0e9154f53549",
+            "de2bf02c-83f9-4744-9322-7aa21957b4fc",
+            "62c24175-6bed-49fc-b5f1-578f0a943211",
+            "649e2b93-2361-4875-bd3e-d2daace01e72",
+            "a2c54de4-aa36-4a0d-9f60-d0cb45df0d4e"
+        ]
+    },
+    "a7a2845e-a8dd-4d6c-994d-eb4bb566e982": {
+        "learning_set_id": "a7a2845e-a8dd-4d6c-994d-eb4bb566e982",
+        "name": null,
+        "description": "Positionner sur une demi-droite gradu\u00e9e une fraction comprise entre 0 et 1",
+        "status": {},
+        "learning_set_context": {
+            "id": "a7a2845e-a8dd-4d6c-994d-eb4bb566e982",
+            "shell": "WIZARD",
+            "targetedDifficulties": {
+                "$html": "Construire le rapport entre une fraction  et sa repr\u00e9sentation graphique sur une demi-droite gradu\u00e9e."
+            },
+            "visibility_status": "VISIBLE"
+        },
+        "learning_set_tags": {},
+        "learning_set_type": "objective",
+        "learning_set_configs": [
+            {
+                "product": "athena/remediationseconde",
+                "env_edito": "main",
+                "learning_set_config": {
+                    "status": {},
+                    "description": "Positionner sur une demi-droite gradu\u00e9e une fraction comprise entre 0 et 1",
+                    "code": "M102O7",
+                    "visibility_status": "VISIBLE",
+                    "student_path": null,
+                    "title": {
+                        "short": "Positionner sur une demi-droite gradu\u00e9e une fraction comprise entre 0 et 1",
+                        "long": "Objectif 7"
+                    }
+                }
+            }
+        ],
+        "id": "a7a2845e-a8dd-4d6c-994d-eb4bb566e982",
+        "updated": "2024-12-10T11:20:55.715011+00:00",
+        "created": "2024-12-10T11:20:55.715011+00:00",
+        "env_edito": "main",
+        "learning_items": [],
+        "learning_object_type": "learning_set",
+        "learning_items_length": 0,
+        "mapping_nodes": [
+            "nombres-rationnels-lgt",
+            "algebre-analyse-lp",
+            "connaitre-nombres-pos"
+        ],
+        "learning_sets": [
+            "38134e5e-b7e9-4bbb-87c8-c15628639b83",
+            "2ad88743-6263-463c-a848-50854c3ce554",
+            "aada4ba4-5b3d-44ba-afd3-7bde43f956fc",
+            "4141949d-2212-4c82-bd92-a2226ad3dec2"
+        ]
+    },
+    "cfd24010-1d22-41d0-b97d-084952f4b43e": {
+        "learning_set_id": "cfd24010-1d22-41d0-b97d-084952f4b43e",
+        "name": null,
+        "description": "Estimer une chance dans un tirage",
+        "status": {},
+        "learning_set_context": {
+            "id": "cfd24010-1d22-41d0-b97d-084952f4b43e",
+            "shell": "WIZARD",
+            "targetedDifficulties": {
+                "$html": "Relier une probabilit\u00e9 \u00e0 une proportion. Renforcer la compr\u00e9hension des proportions en \u00e9tablissant un lien avec une approche intuitive des probabilit\u00e9s."
+            },
+            "visibility_status": "VISIBLE"
+        },
+        "learning_set_tags": {},
+        "learning_set_type": "objective",
+        "learning_set_configs": [
+            {
+                "product": "athena/remediationseconde",
+                "env_edito": "main",
+                "learning_set_config": {
+                    "status": {},
+                    "description": "Estimer une chance dans un tirage",
+                    "code": "M102O8",
+                    "visibility_status": "VISIBLE",
+                    "student_path": null,
+                    "title": {
+                        "short": "Estimer une chance dans un tirage",
+                        "long": "Objectif 8"
+                    }
+                }
+            }
+        ],
+        "id": "cfd24010-1d22-41d0-b97d-084952f4b43e",
+        "updated": "2024-12-10T11:20:55.715011+00:00",
+        "created": "2024-12-10T11:20:55.715011+00:00",
+        "env_edito": "main",
+        "learning_items": [],
+        "learning_object_type": "learning_set",
+        "learning_items_length": 0,
+        "mapping_nodes": [
+            "calcul-proba-lgt",
+            "experimenter-fluctuation-frequences-probas-lp",
+            "estimer-proba-lp",
+            "connaitre-nombres-pos"
+        ],
+        "learning_sets": [
+            "ca366b3c-87e8-4af0-96e1-380bbfc12d57",
+            "072857e2-fe6a-4614-9098-b06104672fba",
+            "fffb2d7a-9b3e-4f63-8deb-e0994846878c",
+            "ac1bde79-9160-4c1b-9f6b-153f39a0fe26"
+        ]
+    },
+    "1e302746-17a9-48f3-94c6-645035c71901": {
+        "learning_set_id": "1e302746-17a9-48f3-94c6-645035c71901",
+        "name": null,
+        "description": "Appliquer et calculer une proportion",
+        "status": {},
+        "learning_set_context": {
+            "id": "1e302746-17a9-48f3-94c6-645035c71901",
+            "shell": "WIZARD",
+            "targetedDifficulties": {
+                "$html": "Appliquer et calculer une proportion."
+            },
+            "visibility_status": "VISIBLE"
+        },
+        "learning_set_tags": {},
+        "learning_set_type": "objective",
+        "learning_set_configs": [
+            {
+                "product": "athena/remediationseconde",
+                "env_edito": "main",
+                "learning_set_config": {
+                    "status": {},
+                    "description": "Appliquer et calculer une proportion",
+                    "code": "M102O9",
+                    "visibility_status": "VISIBLE",
+                    "student_path": null,
+                    "title": {
+                        "short": "Appliquer et calculer une proportion",
+                        "long": "Objectif 9"
+                    }
+                }
+            }
+        ],
+        "id": "1e302746-17a9-48f3-94c6-645035c71901",
+        "updated": "2024-12-10T11:20:55.715011+00:00",
+        "created": "2024-12-10T11:20:55.715011+00:00",
+        "env_edito": "main",
+        "learning_items": [],
+        "learning_object_type": "learning_set",
+        "learning_items_length": 0,
+        "mapping_nodes": [
+            "nombres-rationnels-lgt",
+            "algebre-analyse-lp",
+            "connaitre-nombres-pos"
+        ],
+        "learning_sets": [
+            "664f3681-8e88-41dd-bd42-4c1bbc3848e6",
+            "1d2b1608-f615-42f9-afa2-4ab1f8288e61",
+            "f7115a7d-f984-4b04-bded-6bb3f224e04f",
+            "b48a021c-5b1a-4a09-b32a-64a68a0a09a2",
+            "7988ae78-64fb-423c-b5db-cbcdcccf5d4f"
+        ]
+    },
+    "5811155a-6a69-4a47-b73d-b29256f86c26": {
+        "learning_set_id": "5811155a-6a69-4a47-b73d-b29256f86c26",
+        "name": null,
+        "description": "Identifier plusieurs repr\u00e9sentations correspondant \u00e0 une fraction sup\u00e9rieure \u00e0 1",
+        "status": {},
+        "learning_set_context": {
+            "id": "5811155a-6a69-4a47-b73d-b29256f86c26",
+            "shell": "WIZARD",
+            "targetedDifficulties": {
+                "$html": "Identifier plusieurs repr\u00e9sentations, symboliques et non symboliques, correspondant \u00e0 une fraction sup\u00e9rieure \u00e0 1. Apprendre \u00e0 d\u00e9composer une fraction sup\u00e9rieure \u00e0 1."
+            },
+            "visibility_status": "VISIBLE"
+        },
+        "learning_set_tags": {},
+        "learning_set_type": "objective",
+        "learning_set_configs": [
+            {
+                "product": "athena/remediationseconde",
+                "env_edito": "main",
+                "learning_set_config": {
+                    "status": {},
+                    "description": "Identifier plusieurs repr\u00e9sentations correspondant \u00e0 une fraction sup\u00e9rieure \u00e0 1",
+                    "code": "M102O10",
+                    "visibility_status": "VISIBLE",
+                    "student_path": null,
+                    "title": {
+                        "short": "Identifier plusieurs repr\u00e9sentations, symboliques et non symboliques, correspondant \u00e0 une fraction sup\u00e9rieure \u00e0 1",
+                        "long": "Objectif 10"
+                    }
+                }
+            }
+        ],
+        "id": "5811155a-6a69-4a47-b73d-b29256f86c26",
+        "updated": "2024-12-10T11:20:55.715011+00:00",
+        "created": "2024-12-10T11:20:55.715011+00:00",
+        "env_edito": "main",
+        "learning_items": [],
+        "learning_object_type": "learning_set",
+        "learning_items_length": 0,
+        "mapping_nodes": [
+            "nombres-rationnels-lgt",
+            "algebre-analyse-lp",
+            "connaitre-nombres-pos"
+        ],
+        "learning_sets": [
+            "4dbdf59d-5ba9-4f56-9617-c3e5e668f52e",
+            "86be3161-859f-422a-b426-2eddb6e948e0",
+            "cc88b5c0-e823-4065-8116-9bba788b5d90",
+            "e84cf059-b20f-4025-aece-bc30c10f4af5",
+            "b04f935a-8d1c-438a-84b3-c6a416a83f73",
+            "2681fea4-25e0-49da-bb7c-f55bf3de80d4",
+            "36ea476d-d16b-4d50-b754-82c876504967",
+            "e4e9300f-17d6-43d3-922a-502f4984c6c2",
+            "28545d9f-99a0-477e-be2d-08f1f1964f03"
+        ]
+    },
+    "cb837ca7-4b3f-441b-99d5-ca1a8bb3c61d": {
+        "learning_set_id": "cb837ca7-4b3f-441b-99d5-ca1a8bb3c61d",
+        "name": null,
+        "description": "La fraction comme quotient",
+        "status": {},
+        "learning_set_context": {
+            "id": "cb837ca7-4b3f-441b-99d5-ca1a8bb3c61d",
+            "shell": "WIZARD",
+            "targetedDifficulties": {
+                "$html": "Comprendre le sens d\u2019une fraction en tant que quotient."
+            },
+            "visibility_status": "VISIBLE"
+        },
+        "learning_set_tags": {},
+        "learning_set_type": "objective",
+        "learning_set_configs": [
+            {
+                "product": "athena/remediationseconde",
+                "env_edito": "main",
+                "learning_set_config": {
+                    "status": {},
+                    "description": "La fraction comme quotient",
+                    "code": "M102O11",
+                    "visibility_status": "VISIBLE",
+                    "student_path": null,
+                    "title": {
+                        "short": "La fraction comme quotient",
+                        "long": "Objectif 11"
+                    }
+                }
+            }
+        ],
+        "id": "cb837ca7-4b3f-441b-99d5-ca1a8bb3c61d",
+        "updated": "2024-12-10T11:20:55.715011+00:00",
+        "created": "2024-12-10T11:20:55.715011+00:00",
+        "env_edito": "main",
+        "learning_items": [],
+        "learning_object_type": "learning_set",
+        "learning_items_length": 0,
+        "mapping_nodes": [
+            "nombres-rationnels-lgt",
+            "algebre-analyse-lp",
+            "connaitre-nombres-pos"
+        ],
+        "learning_sets": [
+            "2268fe5b-0d48-4932-b68a-cf4868fdf6fb",
+            "0924733d-c2ad-424d-aa24-d897e604a278"
+        ]
+    }
+}

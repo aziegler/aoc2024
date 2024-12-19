@@ -1,7 +1,4 @@
-use std::{
-    collections::{BinaryHeap, HashMap, HashSet, VecDeque},
-    fmt::Binary,
-};
+use std::collections::{HashMap, VecDeque};
 
 use nom::{
     bytes::complete::tag,
@@ -130,7 +127,6 @@ pub fn part_two(input: &str) -> Option<u32> {
             VecDeque::new(),
             max,
         );
-        println!("{} obstacles : {:?} steps", i, result);
         if result.is_none() {
             val = Some(*obstacles.get(i - 1).unwrap());
             println!("Solution : {:?}", val);
