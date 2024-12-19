@@ -1,0 +1,5 @@
+r, wr, b, g, bwu, rb, gb, br
+
+brbrbr
+
+b, br, bwu,g,gb,r,rb, wr    
